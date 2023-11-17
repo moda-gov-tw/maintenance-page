@@ -73,8 +73,6 @@
             系統發生錯誤，請聯絡系統管理員<br />
             System error, please contact the system administrator
           </p>
-          <div style="display: none">::CLOUDFLARE_ERROR_500S_BOX::</div>
-          
           <div class="logo">
             <img src="" alt=""/>
           </div>
@@ -82,5 +80,7 @@
       </main>
     </div>
   </div>
+  <div style="display: none" id="cf">::CLOUDFLARE_ERROR_500S_BOX::</div>
+  <script>document.getElementById("cf").remove()</script>
 </body>
 </html>
